@@ -1,0 +1,11 @@
+version : '3'
+services :
+    web1:
+      image: vishal12345654321/docker-demo:latest 
+      ports:
+        - '8075:80'
+    web2:
+      image: vishal12345654321/navya22_sk:latest
+      ports:
+        - '8080:80'
+        
